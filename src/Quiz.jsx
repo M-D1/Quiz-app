@@ -5,14 +5,14 @@ function Quiz(props){
  
    
  const arrOfAns = props.answers.map((ans,index) => (
-  <button  className="ans" key={index}>{ans}</button>
+  <button  className="ans" key={index}>{decode(ans)}</button>
  ))
  
   return(
   <div className="quiz--section">
    
     <h1>{decode(props.question)}</h1>
-    <p>{decode(arrOfAns)}</p>
+    <p>{arrOfAns}</p>
   </div>
   )
 }
