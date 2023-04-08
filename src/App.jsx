@@ -24,7 +24,7 @@ function App() {
   function shuffle(arr) {
     // iteraring over the array
     for(let i =0; i < 0; i++){
-      // save the current item to a temo variabels
+      // save the current item to a temo variable
       let temp = arr[i]
       // generating random number in the range of the array
       let randomNum = Math.floor(Math.random() * arr.length)
