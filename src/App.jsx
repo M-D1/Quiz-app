@@ -40,7 +40,7 @@ function App() {
   }
 
  
-  const quesAnsAns = result.map((item,index) => {
+  const quesAndAns = result.map((item,index) => {
    
     return <Quiz 
       key ={index}
@@ -59,7 +59,7 @@ function App() {
         <h1 className='title'>Quizzical</h1>
         <button onClick={startGame} className='start--btn'>Start Quiz</button> 
       </div> :
-        quesAnsAns
+        quesAndAns
       
       }
      
