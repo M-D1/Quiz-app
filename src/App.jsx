@@ -55,7 +55,8 @@ function App() {
 
   return (
     <>
-      {!startQuiz  ?  <div className='start--quiz'>
+      {!startQuiz  ?  
+      <div className='start--quiz'>
         <h1 className='title'>Quizzical</h1>
         <button onClick={startGame} className='start--btn'>Start Quiz</button> 
       </div> :
